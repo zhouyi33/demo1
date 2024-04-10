@@ -1,4 +1,4 @@
-import torch
+from mmsdk import mmdatasdk
 
 if __name__ == '__main__':
-    print(torch.__version__)
+    cmumosi_highlevel = mmdatasdk.mmdataset(mmdatasdk.cmu_mosei.highlevel,'cmu_mosei/')
